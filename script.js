@@ -1,3 +1,4 @@
+
 // console.log('welcome');
 
 // name='anit'
@@ -167,20 +168,143 @@
 //     console.log((price*5/100+price))
 // }
 
-a=100
-b=18
-c=15
-if(a>b ){
-    if(a>c){
-    console.log('a is greater')
-    }
 
-}
-else if(b>c){
+// a=100
+// b=18
+// c=15
+// if(a>b ){
+//     if(a>c){
+//     console.log('a is greater')
+//     }
+
+// }
+// else if(b>c){
     
-        console.log('b is greater')
+//         console.log('b is greater')
     
+// }
+// else{
+//     console.log('c is greater')
+// }
+
+// loop
+// while loop
+
+// let i=1
+// while(i<=10){
+//     console.log(i);
+//     i++
+// }
+
+// let i=1
+// while(i<=10){
+//     console.log(i%2==0);
+//     i++
+// }
+
+// let i=1
+// while(i<=10){
+//     console.log(i%2!=0);
+//     i++
+// }
+
+// even
+// let i=2
+// while(i<=10){
+//     console.log(i);
+//     i=i+2
+// }
+
+// odd
+// let i=1
+// while(i<=10){
+//     console.log(i);
+//     i=i+2
+// }
+
+// dowhile
+// let i=1
+// do{
+//     console.log(i);
+//     i++
+// }while(i<=10)
+
+// forloop
+// for(i=1;i<=10;i++){
+//     console.log(i);
+// }
+
+// forin
+// let l=[10,20,30,40]
+// for(i in l){
+//     console.log(l[i]);
+// }
+
+// forof
+// let l=[10,20,30,40]
+// for(i of l){
+//     console.log(i);
+// }
+
+// let d={name:'anit',age:21}
+// for(i in d){
+//     console.log(d[i]);
+// }
+
+// let d={name:'anit',age:21}
+// for(i of d){
+//     console.log(i);
+// }
+
+// value input
+// let a=prompt("enter a number");
+// console.log(a);
+// console.log(typeof a);
+
+// type string to integer aakan
+// let a=parseint(prompt("enter a number"));
+// console.log(a);
+// console.log(typeof a);
+// let a=parseInt(prompt("enter a number"));
+// let i=1
+// let b=0
+// while(i<=10){
+//     b=i*a
+//     console.log(i+"*"+a+"="+b);
+//     i++
+// }
+
+// let a=parseInt(prompt("enter a number"));
+// let i
+// for(i=1;i<=10;i++){
+//     b=i*a
+//     console.log(i+"*"+a+"="+b);
+// }
+
+// let a=parseInt(prompt("enter a number"));
+// let i=1
+// do{
+//     b=i*a
+//     console.log(i+"*"+a+"="+b);
+//     i++
+// }while(i<=10)
+
+let a=parseInt(prompt("first number"));
+let b=parseInt(prompt("second number"));
+let i=1
+let c=0
+while(i<=10){
+    c=i*a
+    console.log(i+"*"+a+"="+c);
+    i++
 }
-else{
-    console.log('c is greater')
+
+i=1
+c=0
+
+
+while(i<=10){
+    c=i*b
+    console.log(i+"*"+b+"="+c);
+    i++
 }
