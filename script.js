@@ -289,22 +289,114 @@
 //     i++
 // }while(i<=10)
 
-let a=parseInt(prompt("first number"));
-let b=parseInt(prompt("second number"));
-let i=1
-let c=0
-while(i<=10){
-    c=i*a
-    console.log(i+"*"+a+"="+c);
-    i++
-}
+// let a=parseInt(prompt("first number"));
+// let b=parseInt(prompt("second number"));
+// let i=1
+// let c=0
+// while(i<=10){
+//     c=i*a
+//     console.log(i+"*"+a+"="+c);
+//     i++
+// }
 
-i=1
-c=0
+// i=1
+// c=0
 
 
-while(i<=10){
-    c=i*b
-    console.log(i+"*"+b+"="+c);
-    i++
-}
+// while(i<=10){
+//     c=i*b
+//     console.log(i+"*"+b+"="+c);
+//     i++
+// }
+
+// let a=parseInt(prompt("first number"));
+// let b=parseInt(prompt("second number"));
+// let i
+// let c=0
+// for(i=1;i<=b;i++){
+//     let j
+//     for(j=1;j<=10;j++){
+//         c=j*a
+//         console.log(j+"*"+a+"="+c);
+//     }
+//     console.log(" ");
+//     a=a+1
+// }
+
+// 10/3/25
+// function
+// 1.normal function
+// 2.anonymous function
+// 3.arrow function
+
+
+// function fun1(name,age){
+//     console.log(name,age);
+// }
+// fun1('anit',21)
+
+// const data= function(a,b){
+//     console.log("hello",a,b);
+// }
+// data('athul',21)
+
+// const data= ()=>{
+//     console.log("hello");
+//     console.log("hii");
+// // }
+// // data()
+
+// string methods
+// let a="Welcome"
+// console.log(a);
+// console.log(a.length);
+// console.log(a.toUpperCase());
+// console.log(a.toLowerCase());
+// console.log(a.slice(1,5));
+// console.log(a.slice(1));
+// console.log(a.slice(-5));
+// console.log(a.replace("Welcome","hello"));
+// console.log(a.split(" "));
+// console.log(a.charAt(3));
+// console.log(a.concat(" anit"));
+// // console.log(a.indexOf("e"));
+// // console.log(a.endsWith("e"));
+// // console.log(a.startsWith("W"));
+// // console.log(a.search("e"));
+// // console.log(a.repeat(3));
+// // console.log(a.trim());
+// console.log(a.padEnd(20),'hi')
+// console.log(a.padStart(20),'hi')
+// // console.log(a.valueOf());
+// // console.log(a[0]);
+
+// arraymethods
+// let a=[1,2,3,4,5]
+// console.log(a);
+// console.log(a.length);
+// console.log(a[5]);
+// console.log(a.concat([1,2,]));
+// a.pop()
+// console.log(a);
+// a.push(6)
+// console.log(a);
+// a.push(['heloo'])
+// console.log(a);
+// a.shift()
+// console.log(a);
+// a.unshift(0)
+// console.log(a);
+// console.log(a.splice(1,2));
+// console.log(a);
+
+// let a=parseInt(prompt("enter first number"));
+// let b=parseInt(prompt("enter second number"))
+// let i
+// let d=0
+// for(i=1;i<=b;i++){
+//     d=d+a
+//     a=a+1
+// }
+// console.log(d)
+
+
