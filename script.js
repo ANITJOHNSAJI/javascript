@@ -395,8 +395,68 @@
 // let d=0
 // for(i=1;i<=b;i++){
 //     d=d+a
-//     a=a+1
+//     a=a+1   
 // }
 // console.log(d)
 
 
+// let a=parseInt(prompt("enter first number"));
+// let b=parseInt(prompt("enter second number"))
+// let i
+// let d=0
+// for(i=1;i<=b;i++){
+//     d=d+a
+//     a=a+1
+//     if (d % 2 === 0) {
+//         console.log("Even");
+//     } else {
+//         console.log("Odd");
+//     }
+       
+// }
+// console.log(d)
+
+// reverse of a String using for loop
+// let a="anit"
+// let b=""
+// for(i=a.length-1;i>=0;i--){
+//     b=b+a[i]
+// }
+// console.log(b);
+
+// sum of digit using for loop
+// let a=123
+// let b=0
+// let c=a.toString()
+// for(i=0;i<c.length;i++){
+//     b=b+parseInt(c[i])
+// }
+// console.log(b);
+
+// factorial using for loop
+// let a=5
+// let b=1
+// for(i=1;i<=a;i++){
+//     b=b*i
+// }
+// console.log(b);
+
+// fibanacci series
+// let a=0
+// let b=1
+// let c=0
+// let i
+// for(i=1;i<=10;i++){
+//     c=a+b
+//     console.log(c);
+//     a=b
+//     b=c
+// }
+
+let a=parseInt(prompt("enter first number"));
+let b=parseInt(prompt("enter second number"));
+let c=[];
+for(i=a;i<=b;i++){ 
+    c.push(i);
+    }
+console.log(c);
