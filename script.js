@@ -460,3 +460,6 @@ for(i=a;i<=b;i++){
     c.push(i);
     }
 console.log(c);
+
+
+
