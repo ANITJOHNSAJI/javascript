@@ -1,13 +1,12 @@
 
 function getdata(){
 
-    let a=parseInt(pro
-    let b=parseInt(prompt("enter second number"));
-    let c=[];
-    for(i=a;i<=b;i++){ 
-        c.push(i);
-        }
-    console.log(c);
+let no=document.getElementById('a').value;
+let name=document.getElementById('b').value;
+let age=document.getElementById('c').value;
+d=[]
+d.push(no,name,age)
+console.log(d)
     
     
     
