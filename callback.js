@@ -20,19 +20,28 @@
 // data.fullname()
 
 // call
-const nameobj={
-    fname:"anil",
-    age:20
+// const nameobj={
+//     fname:"anil",
+//     age:20
 
+// }
+// const data={
+//     fname:"manu",
+//        lname:"lal",
+//        fullname:function(age){
+//            console.log(this.fname,age);
+//    }
+//    }
+//    console.log(data);  
+// //    data.fullname.call(nameobj)
+// const d1=data.fullname.bind(nameobj,18)
+// d1()
+
+// apply
+const person ={
+    name:"anil",
 }
-const data={
-    fname:"manu",
-       lname:"lal",
-       fullname:function(age){
-           console.log(this.fname,age);
-   }
-   }
-   console.log(data);  
-//    data.fullname.call(nameobj)
-const d1=data.fullname.bind(nameobj,18)
-d1()
+function data(job,com){
+    console.log(this.name,job,com);
+}
+data.apply(person,["developer","google"])
