@@ -5,4 +5,11 @@ const data=new Promise((resolve,reject)=>{
         reject('rejected')
     }
 })
-console.log(data)
+console.log(data);
+data.then((message)=>{
+    console.log(message);
+}).catch((message)=>{
+    console.log(message);
+}).finally(()=>{
+    console.log('finally');
+})
